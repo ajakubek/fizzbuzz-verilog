@@ -19,14 +19,17 @@ Uses fast divisibility test described in
  - [Icarus Verilog](http://iverilog.icarus.com) (required for simulation)
 
 ## Build instructions
- Synthesize for IceBreaker board\
+ Synthesize for IceBreaker board:\
  ```$ make```
 
- Run formal verification (requires SymbiYosys)\
+ Run formal verification (requires SymbiYosys):\
  ```$ make formal```
 
- Run simulation (requires Icarus Verilog)\
+ Run simulation (requires Icarus Verilog):\
  ```$ make test```
+
+ Generate timing report:\
+ ```$ make timing```
  
  Generate parameters for fast divisibility test:\
  ```$ python scripts/generate_div_params.py```
