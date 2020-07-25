@@ -1,0 +1,28 @@
+set_io CLK 15
+
+set_io A0 4
+set_io A1 2
+set_io A2 47
+set_io A3 45
+set_io A4 3
+set_io A5 48
+set_io A6 46
+set_io A7 44
+
+set_io B0 43
+set_io B1 38
+set_io B2 34
+set_io B3 31
+set_io B4 42
+set_io B5 36
+set_io B6 32
+set_io B7 28
+
+set_io C0 27
+set_io C1 25
+set_io C2 21
+set_io C3 19
+set_io C4 26
+set_io C5 23
+set_io C6 20
+set_io C7 18
