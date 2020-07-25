@@ -3,13 +3,13 @@
 Hardware solver for Fizz Buzz.
 
 Uses fast divisibility test described in
-[D. Lemire, O. Kaser, and N. Kurz, Faster Remainder by Direct Computation,2018.](https://arxiv.org/pdf/1902.01961.pdf).
+[D. Lemire, O. Kaser, and N. Kurz, Faster Remainder by Direct Computation,2018](https://arxiv.org/pdf/1902.01961.pdf).
 
 ## Ports
  ```verilog
- input logic [7:0] number
- output logic fizz
- output logic buzz
+ input  logic [7:0] number
+ output logic       fizz
+ output logic       buzz
  ```
 
 ## Requirements
@@ -19,16 +19,16 @@ Uses fast divisibility test described in
  - [Icarus Verilog](http://iverilog.icarus.com) (required for simulation)
 
 ## Build instructions
- Synthesize for IceBreaker board
+ Synthesize for IceBreaker board\
  ```$ make```
 
- Run formal verification (requires SymbiYosys)
+ Run formal verification (requires SymbiYosys)\
  ```$ make formal```
 
- Run simulation (requires Icarus Verilog)
+ Run simulation (requires Icarus Verilog)\
  ```$ make test```
  
- Generate parameters for fast divisibility test:
+ Generate parameters for fast divisibility test:\
  ```$ python scripts/generate_div_params.py```
 
 ## Supported hardware
